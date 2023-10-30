@@ -1,0 +1,13 @@
+.main-layout{
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-layout{
+    display: flex;
+  flex-direction: row;
+  gap: 3px;
+}

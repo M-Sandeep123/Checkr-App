@@ -1,0 +1,43 @@
+.StyledOutline {
+  min-width: 480px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 28px 0px rgba(45, 45, 47, 0.1);
+  align-items: center;
+  background-color: #FFFFFF
+}
+.StyledInnerStack {
+  width: 384px;
+  margin-top: 54px;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+.StyledInputStack{
+  gap: 24px
+}
+.StyledStack{
+  gap: 10px
+}
+.StyledRowStack{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.StyledRow{
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+}
+
+.StyledStackBottom{
+  color: red;
+  height: 0px;
+  margin-top: -10px;
+}
+.StyledSocialStack{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}

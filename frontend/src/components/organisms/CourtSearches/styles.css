@@ -1,0 +1,59 @@
+/* styles.css */
+.search-cell {
+  min-width: 150px;
+  max-width: 208px;
+}
+
+.status-cell {
+  min-width: 120px;
+  max-width: 168px;
+}
+
+.date-cell {
+  min-width: 120px;
+  max-width: 168px;
+}
+.dummy-cell{
+  width: 30vw;
+}
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .search-cell {
+    min-width: 100px;
+    max-width: 150px;
+  }
+
+  .status-cell {
+    min-width: 80px;
+    max-width: 120px;
+  }
+
+  .date-cell {
+    min-width: 80px;
+    max-width: 120px;
+  }
+  .dummy-cell{
+    width:"0vw"
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .search-cell {
+    min-width: 80px;
+    max-width: 100px;
+  }
+
+  .status-cell {
+    min-width: 60px;
+    max-width: 80px;
+  }
+
+  .date-cell {
+    min-width: 60px;
+    max-width: 80px;
+  }
+  .dummy-cell{
+    width:"0vw"
+  }
+  
+}

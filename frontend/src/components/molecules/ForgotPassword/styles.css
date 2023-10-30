@@ -1,0 +1,10 @@
+.forgotPassword.StyledOutline {
+    width: 26vw;
+    height: 672px;
+    box-Shadow: 0px 4px 28px 0px rgba(45, 45, 47, 0.1);
+}
+
+.forgotPassword.StyledInnerStack{
+    max-Width: 384px;
+    margin: 27px 48px 0px 48px;
+}

@@ -1,0 +1,24 @@
+.outline {
+  display: flex;
+  flex-direction: column;
+  max-width: 238px;
+  height: 95vh;
+  border-radius: 9px;
+  box-shadow: 0 4px 28px 0 rgba(45, 45, 47, 0.1);
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+.inner-stack {
+  display: flex;
+  flex-direction: column;
+  max-width: 206px;
+  margin: 28px 16px 0px 16px;
+}
+.styled-img-outline {
+  margin-left: 12px;
+  margin-bottom: 20px;
+  height: 20px;
+}
+.styled-box {
+  margin: 20px 16px 18px 16px;
+}

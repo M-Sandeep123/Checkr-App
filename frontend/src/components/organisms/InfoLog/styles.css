@@ -1,0 +1,18 @@
+.card-details {
+  padding: 20px 16px 20px 16px;
+}
+.accordion-details {
+  padding: 20px 16px 20px 16px;
+}
+.accordion-summary {
+  padding: 0px;
+  padding-right: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header{
+  padding-left: 16px;
+}
+.infolog-box{
+  border-radius: 8px;
+}

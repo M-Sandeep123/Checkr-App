@@ -1,0 +1,9 @@
+.header {
+  color: #2c2c2e;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  header-outline{
+    font-size: 12px;
+  }
+}

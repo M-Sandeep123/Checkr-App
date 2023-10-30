@@ -1,0 +1,153 @@
+.data-table.table-header{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 36px;
+  text-align: start;
+}
+
+.data-table.table-container{
+  border-radius: 6px;
+  min-width: 1056px;
+}
+
+.data-table.tablecell-header-style{
+  text-align: "left";
+  padding: 12px 16px; 
+  background-color: #FFFFFF;
+  height: 60px,
+}
+
+.data-table.table-columns{
+  top: 57;
+  padding: 0px 0px 0px 16px;
+  background-color: #F7F8FA;
+  height: 42px;
+}
+
+.data-table.filter-style{
+  padding: 8px 16px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  width: 56.4px;
+  height: 18.4px;
+  box-shadow: none;
+  border: 1px solid #E5E7ED;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.styled-textfield.MuiOutlinedInput-root {
+  color:#2C2C2E;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border-radius:6px;
+  padding:8px 0px 8px 12px;
+  height:36px;
+  width: 700px
+}
+
+.styled-textfield.MuiInputLabel-root{
+  font-size: 14px;
+  color:#818287;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  padding-right:20px;
+  padding-left:5px;
+}
+
+.data-table.table-data-cells{
+  height: 47.2px;
+  width: 180px;
+  padding: 0px 0px 0px 16px;
+}
+
+.styled-textfield .MuiOutlinedInput-root {
+  color: #2C2C2E;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 8px 0px 8px 12px;
+  height: 36px;
+  width: 344px;
+}
+
+.styled-textfield .MuiInputLabel-root {
+  font-size: 14px;
+  color: #818287;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.styled-textfield .Mui-focused.MuiInputLabel-root {
+  color: #224DFF;
+}
+
+.styled-textfield .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0px;
+}
+
+.data-table.typography-theader{
+  flex-grow: 1;
+}
+
+.data-table.color-typography{
+  color: #696A6E;
+}
+.addPadding{
+  padding-right: 40px;
+}
+.addPadding.data-table.table-data-cells{
+  padding-right: 40px;
+}
+@media (max-width: 600px) {
+  .data-table.table-head {
+    font-size: 12px;
+  }
+
+  .data-table.table-data-cells {
+    font-size: 12px;
+  }
+
+  .data-table.table-container {
+    overflow-x: auto;
+  }
+
+  .data-table.styled-textfield.MuiOutlinedInput-root {
+    width: 100%;
+  }
+
+  .data-table.styled-textfield.MuiInputLabel-root {
+    width: 100%;
+  }
+
+  .data-table.styled-textfield .MuiOutlinedInput-root {
+    width: 100%;
+  }
+
+  .data-table.styled-textfield .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    width: 100%;
+  }
+
+  .data-table.typography-theader {
+    flex-grow: 1;
+  }
+
+  .addPadding {
+    padding-right: 40px;
+  }
+
+  .addPadding.data-table.table-data-cells {
+    padding-right: 40px;
+  }
+}

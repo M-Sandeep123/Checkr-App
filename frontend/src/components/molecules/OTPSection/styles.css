@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .LayOutBox {
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      height: auto;
+    }
+    .HeadContainer {
+      gap: 10px;
+    }
+    .MuiOtpInput {
+      font-size: 18px;
+      height: 50px;
+    }
+}

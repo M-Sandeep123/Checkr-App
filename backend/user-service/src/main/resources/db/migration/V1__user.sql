@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS `checkr`.`user` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `user_name` VARCHAR(45) NULL DEFAULT NULL,
+    `password` VARCHAR(45) NULL DEFAULT NULL,
+    `first_name` VARCHAR(45) NULL DEFAULT NULL,
+    `last_name` VARCHAR(45) NULL DEFAULT NULL,
+    `email` VARCHAR(45) NULL DEFAULT NULL,
+    `dob` DATE NULL DEFAULT NULL,
+    `company_name` VARCHAR(45) NULL DEFAULT NULL,
+    `created_at` DATETIME NULL DEFAULT NULL,
+    `updated_at` DATETIME NULL DEFAULT NULL,
+    PRIMARY KEY (`id`))
+    ENGINE = InnoDB
+    AUTO_INCREMENT = 2
+    DEFAULT CHARACTER SET = utf8mb4
+    COLLATE = utf8mb4_0900_ai_ci;

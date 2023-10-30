@@ -1,0 +1,424 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstName": "James",
+      "lastName": "Rodriguez",
+      "userName": "James Rodriguez",
+      "email": "James.co",
+      "password": "James@123",
+      "dob": 906201869,
+      "companyName": "Checkr"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "location": "Barrouallie",
+      "email": "John.smith@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 2,
+      "name": "Serene",
+      "location": "Vänersborg",
+      "email": "serene@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 3,
+      "name": "Walsh",
+      "location": "Sukamanah",
+      "email": "walsh@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 4,
+      "name": "Maurizia",
+      "location": "Sukamanah",
+      "email": "maurizia@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 5,
+      "name": "Kendre",
+      "location": "Beutong Ateuh",
+      "email": "kendre@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 6,
+      "name": "Erastus",
+      "location": "Höviyn Am",
+      "email": "erastus@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 7,
+      "name": "Jereme",
+      "location": "Sharïngol",
+      "email": "jereme@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 8,
+      "name": "John Smith",
+      "location": "Lianyun",
+      "email": "johnsmith@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 9,
+      "name": "Cari",
+      "location": "Taboão da Serra",
+      "email": "cari@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 10,
+      "name": "Kimble",
+      "location": "Veselí nad Moravou",
+      "email": "kimble@checkr.com",
+      "dob": 652968000,
+      "phoneNo": "(555) 555-5555",
+      "zipcode": 94158,
+      "socialSecurity": "123-322-6789",
+      "driverLicemse": "FTEST1111 (CA)",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    }
+  ],
+  "adverseActions": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "pre_notice-date": 1645531200,
+      "post_notice_date": 1645531200,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 2,
+      "candidateId": 2,
+      "pre_notice-date": 1647172800,
+      "post_notice_date": 1647172800,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 3,
+      "candidateId": 3,
+      "pre_notice-date": 1656763200,
+      "post_notice_date": 1656763200,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 4,
+      "candidateId": 4,
+      "pre_notice-date": 1645358400,
+      "post_notice_date": 1645358400,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 5,
+      "candidateId": 5,
+      "pre_notice-date": 1652961600,
+      "post_notice_date": 1652961600,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 6,
+      "candidateId": 6,
+      "pre_notice-date": 1638360000,
+      "post_notice_date": 1638360000,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 7,
+      "candidateId": 7,
+      "pre_notice-date": 1658836800,
+      "post_notice_date": 1658836800,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 8,
+      "candidateId": 8,
+      "pre_notice-date": 1653739200,
+      "post_notice_date": 1653739200,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 9,
+      "candidateId": 9,
+      "pre_notice-date": 1653307200,
+      "post_notice_date": 1653307200,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 10,
+      "candidateId": 10,
+      "pre_notice-date": 1661342400,
+      "post_notice_date": 1661342400,
+      "actionStatus": "Scheduled",
+      "action_update_time": 1480766400,
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    }
+  ],
+  "candidateCourtSearches": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "courtSearchId": 1,
+      "status": "Clear",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 2,
+      "candidateId": 1,
+      "courtSearchId": 2,
+      "status": "Clear",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 3,
+      "candidateId": 1,
+      "courtSearchId": 3,
+      "status": "Consider",
+      "created_at": 1480589069,
+      "updated_at": 1480675469
+    },
+    {
+      "id": 4,
+      "candidateId": 1,
+      "courtSearchId": 4,
+      "status": "Clear",
+      "created_at": 1689422400,
+      "updated_at": 1689422400
+    },
+    {
+      "id": 5,
+      "candidateId": 1,
+      "courtSearchId": 5,
+      "status": "Clear",
+      "created_at": 1689422400,
+      "updated_at": 1689422400
+    }
+  ],
+  "courtSearches": [
+    {
+      "id": 1,
+      "name": "SSN Verification",
+      "created_at": 1702728000,
+      "updated_at": 1702728000
+    },
+    {
+      "id": 2,
+      "search": "Sex Offender",
+      "created_at": 1702814400,
+      "updated_at": 1702814400
+    },
+    {
+      "id": 3,
+      "search": "Global Watchlist",
+      "created_at": 1702900800,
+      "updated_at": 1702900800
+    },
+    {
+      "id": 4,
+      "search": "Federal Criminal",
+      "created_at": 1702987200,
+      "updated_at": 1702987200
+    },
+    {
+      "id": 5,
+      "search": "County Criminal",
+      "created_at": 1480593600,
+      "updated_at": 1480593600
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 1,
+      "created_at": 1480593600,
+      "updated_at": 1480593600
+    },
+    {
+      "id": 2,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 2,
+      "created_at": 1480852800,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 3,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Consider",
+      "candidateId": 3,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 4,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 4,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 5,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 5,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 6,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 6,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 7,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Consider",
+      "candidateId": 7,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 8,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Consider",
+      "candidateId": 8,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 9,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Clear",
+      "candidateId": 9,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    },
+    {
+      "id": 10,
+      "package": "Employee pro",
+      "completed_date": 1480852800,
+      "adjudication": "-",
+      "status": "Consider",
+      "candidateId": 10,
+      "created_at": 1480593600,
+      "updated_at": 1480680000
+    }
+  ]
+}

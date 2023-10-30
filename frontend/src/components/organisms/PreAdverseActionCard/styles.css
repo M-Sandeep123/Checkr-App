@@ -1,0 +1,85 @@
+  .preAdvActionCard.styleBox {
+  width: "1056px";
+  flex-Shrink: "0";
+  box-Shadow: "0px 4px 28px 0px rgba(45, 45, 47, 0.1)";
+  margin-bottom: 2px;
+  }
+
+.preAdvActionCard.stylePaper {
+  padding: 20px 20px 20px 20px;
+  border-Radius: 12px;
+}
+
+.preAdvActionCard.styleTypography {
+  color: #2C2C2E;
+  margin-bottom: 2px;
+}
+
+.preAdvActionCard.styleCont {
+  color: #696A6E;
+  font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.preAdvActionCard.styleContBody {
+  color: #696A6E; 
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.preAdvActionCard.detailsStack{
+  display: flex;
+  flex-direction: column;
+  height:146px;
+  justify-content: space-around;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.preAdvActionCard.styleStack {
+  display: flex;
+  flex-direction: row;
+  left: 283px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.preAdvActionCard.textStyle {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+  margin-top: 2px;
+
+}
+.preAdvActionCard.styleStackBody {
+  margin-left: 2px;
+  margin-bottom: 30px;
+}
+
+.preAdvActionCard.styleStackFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.preAdvActionCard.line {
+  border: none;
+  border-bottom: "1px solid #E5E7ED";
+  margin: "1rem 0";
+}
+
+.preAdvActionCard.stackFooterContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .preAdvActionCard.styleBox {
+    width: 100%;
+  }
+  .preAdvActionCard.stylePaper {
+    padding: 15px;
+  }
+}

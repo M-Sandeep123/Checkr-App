@@ -1,0 +1,29 @@
+name: Chromatic
+
+on:
+  push:
+    branches:
+      - main                                          # change it to your main branch.
+    paths:
+      - "frontend/**/*.stories.tsx"                  # give the correct folder name where the stories reside.
+
+jobs:
+  chromatic-deployment:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        # 👇 Install dependencies with the same package manager used in the project (replace it as needed), e.g. yarn, npm, pnpm
+        run: yarn
+          
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          workingDir: ./frontend     # change to the folder where package.json resides (frontend folder)

@@ -1,0 +1,47 @@
+name: SonarCloud Frontend
+on:
+  push:
+    branches:
+      - main # change it to your main branch.
+    paths:
+      - "frontend/**" # give the frontend folder name.
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  sonarscan:
+    if: ( startsWith(github.head_ref, 'FE_') && github.event.pull_request.merged == false ) || ( github.event_name == 'push' )
+    name: FE Sonar Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: 8 # Give the value at most 8 mins.
+    defaults:
+      run:
+        working-directory: frontend # Change the working directory to your frontend folder name.
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for better relevancy of analysis.
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ${{ github.workspace }}/frontend/node_modules # Change the path to the node_modules folder.
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package.json') }}
+
+      - name: Install the dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Test and coverage
+        run: npm run test -- --coverage
+
+      - name: SonarCloud Scan
+        with:
+          projectBaseDir: frontend # Keep the projectBaseDir same as the working directory.
+        uses: SonarSource/sonarcloud-github-action@v1.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
